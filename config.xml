@@ -1,0 +1,31 @@
+?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.jakerullman.RedditJS"
+        versionCode="1" 
+        version   = "1.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Reddit.js</name>
+
+    <description>
+        Simple, minimal Reddit client.
+    </description>
+
+    <author>
+        Jake Rullman
+    </author>
+
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+
+    <preference name="prerendered-icon" value="true" />
+
+    <preference name="splash-screen-duration" value="0"/>
+
+    <preference name="permissions" value="none"/>
+    
+    <icon src="icon.png" />
+
+</widget>
